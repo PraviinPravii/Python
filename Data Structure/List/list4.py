@@ -1,0 +1,10 @@
+stuff=list()
+stuff.append("Praveen")
+stuff.append("Jyoti")
+stuff.append("Krupa")
+stuff.append("Anand")
+stuff.sort()
+print(stuff)
+print(type(stuff))
+hello=[2,3,34,45]
+print(type(hello))
