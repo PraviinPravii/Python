@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+
+
+@author: Learning Script
+"""
+
+t=int(input())
+for i in range(t):
+    n,k=map(int,input().split())
+    li=list(map(int,input().split()))
+    ind=n-(k%n)
+    for i in range(ind,n):
+        print(li[i],end=" ")
+    for i in range(ind):
+        print(li[i],end=" ")
+    print("\n")
